@@ -1,4 +1,4 @@
-package kafkaconn;
+package kafkaconnect;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

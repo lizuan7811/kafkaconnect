@@ -1,4 +1,4 @@
-package mix.test;
+package kafkaconnect;
 
 public class KafkaProcess {
 

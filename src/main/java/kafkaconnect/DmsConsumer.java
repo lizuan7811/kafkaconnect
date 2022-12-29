@@ -1,4 +1,4 @@
-package kafkaconn;
+package kafkaconnect;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -46,9 +46,9 @@ public class DmsConsumer {
 		consumer.subscribe(topics);
 	}
 	
-	public ConsumerRecords<Object,Object>poll(long timeout){
-		return consumer.poll(Duration.fromNanos(timeout));
-	}
+//	public ConsumerRecords<Object,Object>poll(long timeout){
+////		return consumer.poll(Duration.fromNanos(timeout));
+//	}
 	
 	
 }

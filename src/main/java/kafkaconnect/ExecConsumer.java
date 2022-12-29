@@ -1,4 +1,4 @@
-package kafkaconn;
+package kafkaconnect;
 
 public class ExecConsumer {
 
