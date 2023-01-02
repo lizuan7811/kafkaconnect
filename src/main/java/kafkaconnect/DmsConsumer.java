@@ -42,7 +42,7 @@ public class DmsConsumer {
 		}
 	}
 	
-	public void consume(List topics) {
+	public void consume(List<String> topics) {
 		consumer.subscribe(topics);
 	}
 	
