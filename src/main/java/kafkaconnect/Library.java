@@ -4,6 +4,16 @@
 package kafkaconnect;
 
 public class Library {
+	
+	public static void main(String[] args) {
+		try {
+			ExecConsumer dmsConsumer=new ExecConsumer();
+			dmsConsumer.doConsumer();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
     public boolean someLibraryMethod() {
         return true;
     }
